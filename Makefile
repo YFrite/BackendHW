@@ -9,7 +9,7 @@ build:
 	make migrations
 
 run-specific:
-	python manage.py runserver $(IP_ADDR):8000
+	python manage.py runserver $(IP_ADDR):8001
 
 run:
 	python manage.py runserver 0:8000
